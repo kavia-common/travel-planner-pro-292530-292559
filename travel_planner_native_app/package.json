@@ -1,0 +1,19 @@
+{
+  "name": "travel_planner_native_app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "blits dev --w 1280 --h 720",
+    "build": "blits build",
+    "serve": "blits serve"
+  },
+  "dependencies": {
+    "@lightningjs/blits": "^3.1.0",
+    "idb-keyval": "^6.2.1",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
